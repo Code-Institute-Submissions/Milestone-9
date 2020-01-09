@@ -1,4 +1,4 @@
-# By the order of the Peaky Blinders!
+# Damien Dempsey
 
 One or two paragraphs providing an overview of your project.
 
