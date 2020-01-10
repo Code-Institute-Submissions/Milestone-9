@@ -1,21 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Gelasio:100,200,300,400,500,600,700|Public+Sans&display=swap');
-
-
-
-.logo {
-    background: url("../images/damien-hero.jpg") no-repeat bottom;
-    height: 100vh;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+.main-image {
+    height: 120vh;
+    width: 100%;
+    background: url("../images/damien-hero.jpg") no-repeat;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
     background-size: cover;
+
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
-} 
 
-.social {
-    position: absolute;
-    bottom: 0;
+    position: relative;
+
+    border-bottom: 3px solid;
 }
