@@ -1,6 +1,12 @@
+/*-------------------------------------Navbar---------------------------------------------*/
+
+
+
+
+/*-------------------------------------Image---------------------------------------------*/
 .main-image {
     height: 120vh;
-    width: 100%;
+    max-width: 100%;
     background: url("../images/damien-hero.jpg") no-repeat;
       -webkit-background-size: cover;
       -moz-background-size: cover;
@@ -14,4 +20,35 @@
     position: relative;
 
     border-bottom: 3px solid;
+    
+}
+
+/*-------------------------------------Body---------------------------------------------*/
+
+.body-container {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.body-container p {
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+/*-------------------------------------Footer-------------------------------------------*/
+
+.footer-social {
+    border-top: 5px solid;
+    padding-top: 20px;
+}
+
+.social-links {
+    background-color: #80807A;
+}
+
+.social i {
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #fafafa;
 }
