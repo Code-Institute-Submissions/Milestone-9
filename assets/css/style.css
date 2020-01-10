@@ -18,37 +18,35 @@
     justify-content: center;
 
     position: relative;
-
-    border-bottom: 3px solid;
     
 }
 
 /*-------------------------------------Body---------------------------------------------*/
 
-.body-container {
-    text-align: center;
-    padding-top: 20px;
-}
-
-.body-container p {
-    padding-top: 20px;
-    text-align: center;
-}
 
 
 /*-------------------------------------Footer-------------------------------------------*/
 
 .footer-social {
-    border-top: 5px solid;
-    padding-top: 20px;
+    padding-top: 25px;
 }
 
 .social-links {
-    background-color: #80807A;
+    border-top: 20px solid;
+    background-color: grey;
+    text-align: center;
 }
+
 
 .social i {
     font-size: 30px;
-    letter-spacing: 2px;
+    letter-spacing: 25px;
     color: #fafafa;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.john {
+    color: #fafafa;
+    padding-bottom: 25px;
 }
