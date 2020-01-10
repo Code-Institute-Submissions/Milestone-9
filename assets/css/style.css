@@ -1,1 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Gelasio:100,200,300,400,500,600,700|Public+Sans&display=swap');
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+} 
+
+.nav-container {
+    max-width: 100%;
+    color: #fafafa;
+}
