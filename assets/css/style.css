@@ -30,8 +30,9 @@ figure.img.main-image {
 
 /*-------------------------------------Body---------------------------------------------*/
 
-.discography {
-  
+.space {
+    border-top: 5px solid darkgrey;
+    max-width: 50%;
 }
 
 
