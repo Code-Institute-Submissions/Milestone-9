@@ -27,9 +27,12 @@ body {
     
 }
 
-p {
-    float: left;
-    align-items: left;
+#album1 {
+    padding-top: 20px;
+}
+
+#album8 {
+    padding-bottom: 20px;
 }
 
 
