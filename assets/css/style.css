@@ -11,35 +11,28 @@ body {
 
 /*-------------------------------------Images---------------------------------------------*/
 .main-image {
-    height: 120vh;
+    height: 100vh;
     max-width: 100%;
     background: url("../images/damien-hero.jpg") no-repeat;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-    background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+      -webkit-background-size: 100%;
+      -moz-background-size: 100%;
+      -o-background-size: 100%;
+    background-size: 100% 100%;
     position: relative;
+    margin: auto;
     
 }
 
-#album1 {
-    padding-top: 20px;
+figure.img.main-image {
+    margin: 0;
 }
-
-#album8 {
-    padding-bottom: 20px;
-}
-
 
 
 /*-------------------------------------Body---------------------------------------------*/
 
-
+.discography {
+  
+}
 
 
 
