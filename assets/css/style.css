@@ -2,23 +2,58 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,700&display=swap');
 
 body {
-    font-family: 'Roboto', sans-serif; 
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
 }
 
 /*-------------------------------------Navbar---------------------------------------------*/
+
+#navbarTogglerDemo01 {
+    background-color: black;
+}
+
+button.btn.btn-default {
+    color: #fafafa;
+}
+
+a.nav-link {
+    color: #fafafa;
+}
+
+/*-------------------------------------Headers-------------------------------------------*/
+
+h2 {
+    padding-top: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fafafa;
+    font-style: italic;
+    font-size: 50px;
+}
+
+h3 {
+    padding-top: 10px;
+    text-align: center;
+    font-weight: 500;
+    color: #fafafa;
+    font-style: italic;
+}
+
+
 
 
 
 /*-------------------------------------Images---------------------------------------------*/
 .main-image {
     height: 100vh;
-    max-width: 100%;
+    max-width: auto;
     background: url("../images/damien-hero.jpg") no-repeat;
       -webkit-background-size: 100%;
       -moz-background-size: 100%;
       -o-background-size: 100%;
     background-size: 100% 100%;
-    position: relative;
+    background-position: center center;
     margin: auto;
     
 }
@@ -43,25 +78,54 @@ img#album8{
     padding-right: 5px;
 }
 
+img.logo {
+    padding-top: 10px;
+}
+
 
 /*-------------------------------------Body---------------------------------------------*/
 
+.body-section {
+    margin: 50px 22vw;
+    display: grid;
+    letter-spacing: 1px;
+    color: #fafafa;
+}
+
+.text-center {
+    padding-bottom: 100px; 
+}
+
+
+a.btn {
+    background-color: grey;
+    border-radius: 100px;
+    color: #fafafa;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.btn-space {
+    margin-right: 40px;
+}
+
+
 .space {
     border-top: 5px solid darkgrey;
-    max-width: 50%;
+    max-width: 40%;
 }
+
 
 
 /*-------------------------------------Footer-------------------------------------------*/
 
-.footer-social {
-    padding-top: 25px;
-}
+
 
 .social-links {
-    border-top: 20px solid;
     background-color: grey;
     text-align: center;
+    padding-top: 25px;
 }
 
 
@@ -75,30 +139,9 @@ img#album8{
 
 .john {
     color: #fafafa;
-    padding-bottom: 25px;
+    padding-bottom: 35px;
 }
 
-/*-------------------------------------About Me Section-------------------------------------------*/
-
-section {
-    font-family: ;
-    font-size: 16px;
-    text-align: center;
-    word-spacing: 1px;
-}
-
-h1 {
-    padding-top: 15px;
-}
-
-h2 {
-    padding-top: 15px;
-}
-
-section p {
-    padding-top: 15px;
-}
-
-.musical-career {
-    border-bottom: 2px;
+.john a {
+    color: #fafafa;
 }
