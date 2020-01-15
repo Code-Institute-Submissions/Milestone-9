@@ -139,7 +139,6 @@ img.logo {
     padding-bottom: 50px;
     text-align: center;
     padding-top: 50px;
-    margin-right: 10px;
 }
 
 .track-me a {
@@ -152,6 +151,15 @@ section.body-section {
     line-height: 50px;
 }
 
+/*-------------------------------------Cards-------------------------------------------*/
+img.card-img-top,
+div.card-body {
+    border: 2px solid grey;
+}
+
+
+
+
 /*-------------------------------------Buttons-------------------------------------------*/
 
 a.btn {
@@ -161,11 +169,14 @@ a.btn {
     text-transform: uppercase;
     font-weight: 500;
     letter-spacing: 1px;
-    
 }
 
 .button-tour {
     text-align: center;
+}
+
+.btn-space {
+    margin: 25px;
 }
 
 /*-------------------------------------Footer-------------------------------------------*/
