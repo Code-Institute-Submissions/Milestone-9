@@ -76,6 +76,16 @@ figure.img.main-image {
     margin: 0;
 }
 
+.tour-image {
+    height: 100vh;
+    max-width: auto;
+    background: url("../images/damo-live2.jpg") no-repeat;
+      -webkit-background-size: 100%;
+      -moz-background-size: 100%;
+      -o-background-size: 100%;
+    background-size: 100% 100%;
+}
+
 
 img#album1,
 img#album2,
@@ -129,12 +139,17 @@ img.logo {
     padding-bottom: 50px;
     text-align: center;
     padding-top: 50px;
-    margin-right: 40px;
+    margin-right: 10px;
 }
 
 .track-me a {
     color: #fafafa;
     text-decoration: underline;
+}
+
+section.body-section {
+    text-align: center; 
+    line-height: 50px;
 }
 
 /*-------------------------------------Buttons-------------------------------------------*/
@@ -147,10 +162,6 @@ a.btn {
     font-weight: 500;
     letter-spacing: 1px;
     
-}
-
-.btn-space {
-    margin-right: 40px;
 }
 
 .button-tour {
