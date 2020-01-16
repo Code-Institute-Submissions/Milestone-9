@@ -20,9 +20,8 @@ a.nav-link {
     color: #fafafa;
 }
 
-a.nav-link:hover, a.nav-link:active {
+a.nav-link:hover {
     color: grey; 
-    font-size: 100%;
 }
 
 
@@ -86,20 +85,14 @@ figure.img.main-image {
     background-size: 100% 100%;
 }
 
-
-img#album1,
-img#album2,
-img#album3,
-img#album4,
-img#album5,
-img#album6,
-img#album7,
-img#album8{
-    float: left;
-    padding-top: 15px;
-    padding-bottom: 40px;
-    padding-left: 5px;
-    padding-right: 5px;
+.music-image {
+    height: 100vh;
+    max-width: auto;
+    background: url("../images/damo-music.jpg") no-repeat;
+      -webkit-background-size: 100%;
+      -moz-background-size: 100%;
+      -o-background-size: 100%;
+    background-size: 100% 100%;
 }
 
 img.logo {
@@ -134,6 +127,12 @@ img.logo {
     max-width: 50%;
 }
 
+.music-space {
+    border-top: 5px solid darkgrey;
+    max-width: 50%;
+    padding-bottom: 70px;
+}
+
 .track-me {
     color: #fafafa;
     padding-bottom: 50px;
@@ -151,15 +150,32 @@ section.body-section {
     line-height: 50px;
 }
 
+section.discography.container-fluid {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
 /*-------------------------------------Cards-------------------------------------------*/
+
 img.card-img-top,
 div.card-body {
     border: 2px solid grey;
 }
 
+div.col.mb-4 {
+    padding-bottom: 50px;
+}
 
+div.card-body {
+    background-color: black;
+    color: #fafafa;
+    text-align: center;
+    padding-right: 50px;
+    padding-left: 50px;
+}
 
-
+ 
 /*-------------------------------------Buttons-------------------------------------------*/
 
 a.btn {
@@ -178,6 +194,11 @@ a.btn {
 .btn-space {
     margin: 25px;
 }
+
+p.card-text {
+    padding-bottom: 20px;
+}
+
 
 /*-------------------------------------Footer-------------------------------------------*/
 
