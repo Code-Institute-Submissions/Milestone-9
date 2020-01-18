@@ -28,7 +28,7 @@ a.nav-link:hover {
 /*-------------------------------------Headers-------------------------------------------*/
 
 h2 {
-    padding-top: 70px;
+    padding-top: 50px;
     text-align: center;
     text-transform: uppercase;
     font-weight: 700;
@@ -82,17 +82,17 @@ figure.img.main-image {
 }
 
 .tour-image {
-    height: 100vh;
+    height: 80vh;
     max-width: auto;
-    background: url("../images/damo-live2.jpg") no-repeat;
+    background: url("../images/damo-lethal.jpg") no-repeat;
       -webkit-background-size: 100%;
       -moz-background-size: 100%;
       -o-background-size: 100%;
-    background-size: 100% 100%;
+    background-size: cover;
 }
 
 .music-image {
-    height: 100vh;
+    height: 80vh;
     max-width: auto;
     background: url("../images/damo-music.jpg") no-repeat;
       -webkit-background-size: 100%;
@@ -102,7 +102,7 @@ figure.img.main-image {
 }
 
 .video-image {
-    height: 100vh;
+    height: 80vh;
     max-width: auto;
     background: url("../images/damo-roar.jpg") no-repeat;
       -webkit-background-size: 100%;
