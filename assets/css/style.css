@@ -98,7 +98,7 @@ figure.img.main-image {
       -webkit-background-size: 100%;
       -moz-background-size: 100%;
       -o-background-size: 100%;
-    background-size: 100% 100%;
+    background-size: cover;
 }
 
 .video-image {
@@ -108,7 +108,7 @@ figure.img.main-image {
       -webkit-background-size: 100%;
       -moz-background-size: 100%;
       -o-background-size: 100%;
-    background-size: 100% 100%;
+    background-size: cover;
 }
 
 img.logo {
