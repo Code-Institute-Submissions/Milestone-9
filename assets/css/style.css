@@ -58,6 +58,7 @@ h2.tour-dates {
 
 
 /*-------------------------------------Images---------------------------------------------*/
+
 .main-image {
     height: 100vh;
     max-width: auto;
@@ -99,6 +100,32 @@ img.logo {
     padding-top: 10px;
 }
 
+#photos {
+  clear: both;
+  line-height: 0;
+  column-count: 3;
+  column-gap: 0;
+}
+
+#photos img {
+  width: 100%;
+
+}
+
+/*------------------------------------Gallery Section------------------------------------------*/
+
+.gallery { 
+            width:100%; 
+            display:flex; 
+            flex-flow: row wrap; 
+        } 
+        .box { 
+            flex-basis:20%; 
+            width:100%; 
+            padding:10px; 
+            margin:8px; 
+            box-shadow: 1px 1px 1px 1px green; 
+        } 
 
 /*-------------------------------------Body---------------------------------------------*/
 
