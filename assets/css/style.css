@@ -55,6 +55,11 @@ h2.tour-dates {
     font-size: 50px;
 }
 
+h5.more-videos {
+    color: #fafafa;
+    padding: 20px;
+}
+
 
 
 /*-------------------------------------Images---------------------------------------------*/
@@ -96,48 +101,21 @@ figure.img.main-image {
     background-size: 100% 100%;
 }
 
+.video-image {
+    height: 100vh;
+    max-width: auto;
+    background: url("../images/damo-roar.jpg") no-repeat;
+      -webkit-background-size: 100%;
+      -moz-background-size: 100%;
+      -o-background-size: 100%;
+    background-size: 100% 100%;
+}
+
 img.logo {
     padding-top: 10px;
 }
 
 
-/*------------------------------------Gallery Section------------------------------------------*/
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-
-.column {
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
-}
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
-}
-
-div.column {
-    padding-bottom: 50px;
-}
-
-@media screen and (max-width: 1000px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
-}
 
 /*-------------------------------------Body---------------------------------------------*/
 
@@ -178,6 +156,12 @@ div.column {
     padding-bottom: 70px;
 }
 
+.video-space {
+    border-top: 5px solid darkgrey;
+    max-width: 50%;
+    padding-bottom: 70px;
+}
+
 .track-me {
     color: #fafafa;
     padding-bottom: 50px;
@@ -199,6 +183,49 @@ section.discography.container-fluid {
     padding-left: 50px;
     padding-right: 50px;
 }
+
+/*------------------------------------Gallery Section------------------------------------------*/
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+div.column {
+    padding-bottom: 50px;
+}
+
+@media screen and (max-width: 1000px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/*------------------------------------video Section------------------------------------------*/
+
+
+
 
 
 /*-------------------------------------Cards-------------------------------------------*/
