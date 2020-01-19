@@ -283,11 +283,46 @@ p.video-paragraph {
 
 /*----------------------------------Contact Section--------------------------------------*/
 
-form {
-    background-color: grey;
-    color: #fafafa;
-    text-align: center;
+* {box-sizing: border-box;}
 
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #fafafa;
+  color: black;
+  padding: 12px 20px;
+  border: 2px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #8E8B8B;
+  color: #fafafa;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: grey;
+  padding: 20px;
+}
+
+label {
+    color: #fafafa;
+}
+
+.contact-form {
+    margin-bottom: 100px;
+    margin-top: 50px;
 }
  
 /*-------------------------------------Buttons-------------------------------------------*/
