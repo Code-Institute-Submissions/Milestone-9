@@ -2,12 +2,16 @@
 <html lang="en">
 
 <head>
-	<!--------------------------------------------------Metadata---------------------------------------------------------->
+
+	<!--Metadata-->
+
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Damien Dempsey | A Fan Page</title>
-	<!--------------------------------------------------Links------------------------------------------------------------->
+	<title>Damien Dempsey | Contact</title>
+
+	<!--Links-->
+
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 	<script src="https://kit.fontawesome.com/837a9d992d.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
@@ -17,7 +21,7 @@
 <body>
 
 
-<!--Navbar-->
+	<!--Navbar-->
 
 	<nav class="navbar navbar-expand-md">
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,100 +33,91 @@
 
 			<div class="navbar-logo">
 				<div id="logo">
-					<a href="index.html"></a>
-					<img src="assets/images/ddheadlogo.png" class="logo" alt="Damien Dempsey">
+					<a href="index.html">
+						<img src="assets/images/ddheadlogo.png" class="logo" alt="Damien Dempsey"></a>
 
-                    </div>
 				</div>
-
-				<!--Navbar-Links-->
-
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item">
-						<a class="nav-link" href="index.html">Home</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="tour.html">Tour</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="music.html">Music</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="videos.html">Video</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="photos.html">Gallery</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="contact.html">Contact</a>
-					</li>
-				</ul>
 			</div>
+
+			<!--Navbar-Links-->
+
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="tour.html">Tour</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="music.html">Music</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="videos.html">Video</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="photos.html">Gallery</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="contact.html">Contact</a>
+				</li>
+			</ul>
+		</div>
 	</nav>
 
-	<!--------------------------------------------------Contact Form------------------------------------------------------------->
+	<!--Main Image-->
 
-	<form>
-		<div class="form-group row">
-			<label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-			<div class="col-sm-10">
-				<input type="email" class="form-control" id="inputEmail3">
-    </div>
-			</div>
-			<div class="form-group row">
-				<label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
-				<div class="col-sm-10">
-					<input type="password" class="form-control" id="inputPassword3">
-    </div>
+	<figure class="img contact-image"></figure>
+
+	<!--Body-->
+
+	<!--Header-->
+
+	<header class="contact-header">
+		<h2 class="header-upper">Contact Damien Dempsey</h2>
+	</header>
+
+	<hr class="space">
+
+
+	<!--Contact Form-->
+
+	<section class="contact-damo">
+		<form class="contact-me">
+			<div class="form-group">
+				<label for="exampleFormControlInput1">Email address</label>
+				<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+				<div class="form-group">
+					<label for="exampleFormControlSelect1">Example select</label>
+					<select class="form-control" id="exampleFormControlSelect1">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
 				</div>
-				<fieldset class="form-group">
-					<div class="row">
-						<legend class="col-form-label col-sm-2 pt-0">Radios</legend>
-						<div class="col-sm-10">
-							<div class="form-check">
-								<input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-								<label class="form-check-label" for="gridRadios1">
-            First radio
-          </label>
-							</div>
-							<div class="form-check">
-								<input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-								<label class="form-check-label" for="gridRadios2">
-            Second radio
-          </label>
-							</div>
-							<div class="form-check disabled">
-								<input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
-								<label class="form-check-label" for="gridRadios3">
-            Third disabled radio
-          </label>
-							</div>
-						</div>
-					</div>
-				</fieldset>
-				<div class="form-group row">
-					<div class="col-sm-2">Checkbox</div>
-					<div class="col-sm-10">
-						<div class="form-check">
-							<input class="form-check-input" type="checkbox" id="gridCheck1">
-							<label class="form-check-label" for="gridCheck1">
-          Example checkbox
-        </label>
-						</div>
-					</div>
+				<div class="form-group">
+					<label for="exampleFormControlSelect2">Example multiple select</label>
+					<select multiple class="form-control" id="exampleFormControlSelect2">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
 				</div>
-				<div class="form-group row">
-					<div class="col-sm-10">
-						<button type="submit" class="btn btn-primary">Sign in</button>
-					</div>
+				<div class="form-group">
+					<label for="exampleFormControlTextarea1">Example textarea</label>
+					<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 				</div>
-	</form>
+		</form>
+
+	</section>
 
 
+	<!--Footer-->
 
-
-
-	<!--------------------------------------------------Footer------------------------------------------------------------->
 	<footer class="container-fluid social-links">
 		<div class="footer-social">
 			<ul class="list-inline social">
@@ -153,7 +148,7 @@
 				</li>
 				<li class="list-inline-item">
 					<a href="https://music.apple.com/us/artist/damien-dempsey/67966386" target="_blank">
-						<i class="fab fa-itunes itunes" aria-hidden="true"></i>
+						<i class="fab fa-apple apple" aria-hidden="true"></i>
 					</a>
 				</li>
 			</ul>
