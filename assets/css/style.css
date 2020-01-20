@@ -384,8 +384,42 @@ p.card-text {
 }
 
 @media screen and (max-width: 800px) {
-  .column {
+
+/*-----Home-----*/
+
+.column {
     flex: 100%;
     max-width: 100%;
-  }
+}
+
+.navbar {
+    float: right;
+}    
+
+button.navbar-toggler {
+    background-color: grey;
+}
+
+figure.img.main-image {
+    max-width: 100vw;
+}
+
+h3.header-lower {
+    font-size: 20px;
+}
+
+section.body-section {
+    line-height: inherit; 
+}
+
+.social i {
+    letter-spacing: 15px;
+}
+
+
+
+
+
+
+
 }
