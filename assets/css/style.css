@@ -71,8 +71,6 @@ h4.more-videos {
       -webkit-background-size: 100%;
       -moz-background-size: 100%;
       -o-background-size: 100%;
-    margin: auto;
-    
 }
 
 figure.img.main-image {
@@ -80,52 +78,49 @@ figure.img.main-image {
 }
 
 .tour-image {
-    height: 80vh;
+    height: 100vh;
     max-width: 100vw;
     background: url("../images/damo-live2.jpg") no-repeat;
       -webkit-background-size: 100%;
       -moz-background-size: 100%;
       -o-background-size: 100%;
-    background-size: 100% 120%;
 }
 
 .music-image {
-    height: 80vh;
+    height: 100vh;
     max-width: 100vw;
     background: url("../images/damo-live12.jpg") no-repeat;
       -webkit-background-size: 100%;
       -moz-background-size: 100%;
       -o-background-size: 100%;
-    background-size: 100% 130%;
 }
 
 .video-image {
-    height: 80vh;
+    height: 100vh;
     max-width: 100vw;
     background: url("../images/damo-roar.jpg") no-repeat;
       -webkit-background-size: 100%;
       -moz-background-size: 100%;
       -o-background-size: 100%;
-    background-size: 100% 150%;
 }
 
-.gallery-image {height: 80vh;
+.gallery-image {
+    height: 100vh;
     max-width: 100vw;
     background: url("../images/damo-lethal.jpg") no-repeat;
       -webkit-background-size: 100%;
       -moz-background-size: 100%;
       -o-background-size: 100%;
-    background-size: cover;
 }    
 
 .contact-image {
-    height: 80vh;
+    height: 100vh;
     max-width: 100vw;
     background: url("../images/damo-smile.png") no-repeat;
       -webkit-background-size: 100%;
       -moz-background-size: 100%;
       -o-background-size: 100%;
-    background-size: cover;
+      background-size: cover;
 }
 
 img.logo {
