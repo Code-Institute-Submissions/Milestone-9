@@ -402,6 +402,7 @@ button.navbar-toggler {
 
 figure.img.main-image {
     max-width: 100vw;
+    max-height: 60vh;
 }
 
 h3.header-lower {
