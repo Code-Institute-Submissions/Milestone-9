@@ -269,6 +269,12 @@ section.more-video-container {
     padding-bottom: 50px;
 }
 
+.video-space-lower {
+    border-top: 5px solid darkgrey;
+    max-width: 50%;
+    padding-bottom: 50px;
+}
+
 p.video-paragraph {
     color: #fafafa;
     padding-top: 20px;
@@ -380,15 +386,11 @@ p.card-text {
     flex: 100%;
     max-width: 100%;
 }
-
+/*navbar collapse to display on mobile*/
 .navbar {
     float: right;
     font-size: 25px;
     text-align: center;
-}
-
-img.logo {
-    display: 
 }
 
 div#logo {
@@ -398,11 +400,11 @@ div#logo {
 button.navbar-toggler {
     background-color: grey;
 }
-
+/*hero images to display on mobile*/
 figure.img {
     max-height: 60vh;
 }
-
+/*headers to appear smaller on mobile display*/
 h2.header-upper {
     font-size: 30px;
 }
@@ -411,15 +413,49 @@ h3.header-lower {
     font-size: 20px;
 }
 
+h4.more-videos {
+    display: none;
+}
+
+/*opening paragraph fix to display on mobile*/
 section.body-section {
     line-height: inherit; 
 }
-
-div.col-sm {
-    list-style-type: none;
-    display: inline;
+/*fixing tour dates display for mobile*/
+div.container-fluid {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/*fixing video section display on mobile / removed main video and paragraph*/
+section.video-container {
+    display: none;
 }
 
+section.more-video-container {
+    padding-top: 0px;
+}
+
+hr.video-space-lower {
+    display: none;
+}
+
+div.more-video-iframe {
+    padding-bottom: 10px;
+    display: inherit;
+}
+/*Gallery display fix of to much padding in mobile view*/
+div.column {
+    padding-bottom: 5px;
+}
+
+hr.gallery-space {
+    padding: 0;
+}
+/*fix for contact image to display center of mobile view*/
+figure.img.contact-image {
+    background-size: 100% 130%;
+}
+/*spacing for icons in footer*/
 .social i {
     letter-spacing: 15px;
 }
