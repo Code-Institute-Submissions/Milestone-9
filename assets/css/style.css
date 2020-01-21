@@ -387,7 +387,16 @@ p.card-text {
 
 .navbar {
     float: right;
-}    
+    font-size: 25px;
+}
+
+img.logo {
+    display: 
+}
+
+div#logo {
+    text-align: center;
+}
 
 button.navbar-toggler {
     background-color: grey;
@@ -404,6 +413,11 @@ h3.header-lower {
 
 section.body-section {
     line-height: inherit; 
+}
+
+div.col-sm {
+    list-style-type: none;
+    display: inline;
 }
 
 .social i {
