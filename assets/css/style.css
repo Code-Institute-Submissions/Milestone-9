@@ -247,10 +247,11 @@ div.column {
 }
 
 div.more-video-iframe {
-    display: inline;
-    padding: 20px;
-    margin: 0;
+    display: inline-grid;
+    padding: 10px;
+    padding-bottom: 10px;
 }
+
 
 section.more-video-container {
     padding-top: 70px;
