@@ -371,16 +371,14 @@ p.card-text {
 
 /*-------------------------------------------Media Queries-------------------------------------------*/
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1393px) {
   .column {
     flex: 50%;
     max-width: 50%;
   }
 }
 
-@media screen and (max-width: 800px) {
-
-/*-----Home-----*/
+@media screen and (max-width: 943px) {
 
 .column {
     flex: 100%;
