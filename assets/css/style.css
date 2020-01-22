@@ -518,10 +518,14 @@ div.col.mb-4 {
 figure.img.contact-image {
     background-size: 100% 120%;
 }
-
+/*center main image for larger tablet view*/
 figure.img.main-image {
     height: 80vh;
     background-size: 170% 100%;
+}
+/*music card header correction for tablet*/
+h5.card-title {
+    font-size: 1.5rem;
 }
 
 }
