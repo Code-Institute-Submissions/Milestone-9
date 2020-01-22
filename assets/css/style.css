@@ -484,13 +484,17 @@ div.contact-form.container {
 
 /*---Tablet---*/
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+/* gallery fix to display images correctly*/
 .column {
-    flex: 50%;
-    max-width: 50%;
-  }
+    flex: 100%;
+    max-width: 100%;
+}
 
+/*fix for contact image to display center of mobile view*/
+figure.img.contact-image {
+    background-size: 100% 130%;
+}
 
 }
 
