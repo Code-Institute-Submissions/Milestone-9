@@ -329,6 +329,7 @@ label {
 .contact-form {
     margin-bottom: 100px;
     margin-top: 50px;
+    width: 60%;
 }
  
 /*-------------------------------------Buttons-------------------------------------------*/
@@ -496,14 +497,17 @@ figure.img.contact-image {
     background-size: 100% 130%;
 }
 
+/*fixed music card section for tablet viewing*/
+div.col.mb-4 {
+    flex: 0 0 50%;
+    max-width: 100%;
 }
 
+}
 
+/*---Larger Screens---*/
 
-
-/*---Desktop---*/
-
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
 
 
 }
