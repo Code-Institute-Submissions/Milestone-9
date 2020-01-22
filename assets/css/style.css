@@ -74,7 +74,6 @@ h4.more-videos {
 }
 
 figure.img.main-image {
-    margin: 0;
 }
 
 .tour-image {
@@ -412,10 +411,11 @@ figure.img {
 
 figure.img.main-image {
     max-width: 100vw;
+    background-size: 135% 100%;
 }
 
 figure.img.contact-image {
-    background-size: 120% 120%;
+    background-size: 100% 130%;
 }
  
 /*headers to appear smaller on mobile display*/
@@ -465,10 +465,6 @@ div.column {
 hr.gallery-space {
     padding: 0;
 }
-/*fix for contact image to display center of mobile view*/
-figure.img.contact-image {
-    background-size: 100% 130%;
-}
 
 /*contact form view fix for mobile*/
 div.contact-form.container {
@@ -496,6 +492,10 @@ div.contact-form.container {
 figure.img.contact-image {
     background-size: 100% 130%;
 }
+/*centre image for table viewing*/
+figure.img.main-image {
+    background-size: 170% 100%;
+}
 
 /*fixed music card section for tablet viewing*/
 div.col.mb-4 {
@@ -508,6 +508,20 @@ div.col.mb-4 {
 /*---Larger Screens---*/
 
 @media screen and (min-width: 1024px) and (max-width: 1366px) {
+/*music card display fix for larger screens*/
+div.col.mb-4 {
+    flex: 0 0 50%;
+    max-width: 100%;
+}
 
+/*contact image fix for larger screen viewing*/
+figure.img.contact-image {
+    background-size: 100% 120%;
+}
+
+figure.img.main-image {
+    height: 80vh;
+    background-size: 170% 100%;
+}
 
 }
