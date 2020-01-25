@@ -101,7 +101,7 @@ h4.more-videos {
       -webkit-background-size: 100%;
       -moz-background-size: 100%;
       -o-background-size: 100%;
-      background-size: 100% 100% ;
+      background-size: 80% 100% ;
 }
 
 .gallery-image {
@@ -408,7 +408,7 @@ button.navbar-toggler {
 }
 /*hero images to display on mobile*/
 figure.img {
-    max-height: 60vh;
+    max-height: 65vh;
 }
 
 figure.img.main-image {
@@ -417,7 +417,7 @@ figure.img.main-image {
 }
 
 figure.img.contact-image {
-    background-size: 100% 130%;
+    background-size: 125% 115%;
 }
  
 /*headers to appear smaller on mobile display*/
@@ -490,9 +490,14 @@ div.contact-form.container {
     max-width: 100%;
 }
 
+/*vh change for tablet devices*/
+figure.img {
+    max-height: 80vh;
+}
+
 /*fix for contact image to display center of mobile view*/
 figure.img.contact-image {
-    background-size: 100% 130%;
+    background-size: 125% 115%;
 }
 /*centre image for tablet viewing*/
 figure.img.main-image {
@@ -504,12 +509,16 @@ div.col.mb-4 {
     flex: 0 0 50%;
     max-width: 100%;
 }
+/*fix for buttons on homepage not inline*/
+a.btn {
+    letter-spacing: 0px;
+}
 
 }
 
 /*---Larger Screens---*/
 
-@media screen and (min-width: 1024px) and (max-width: 1366px) {
+@media screen and (min-width: 1024px) and (max-width: 1360px) {
 /*music card display fix for larger screens*/
 div.col.mb-4 {
     flex: 0 0 50%;
@@ -522,9 +531,14 @@ figure.img.contact-image {
 }
 /*center main image for larger tablet view*/
 figure.img.main-image {
-    height: 80vh;
     background-size: 135% 100%;
 }
+
+/*vh change for tablet devices*/
+figure.img {
+    max-height: 80vh;
+}
+
 /*music card header correction for tablet*/
 h5.card-title {
     font-size: 1.5rem;
