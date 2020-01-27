@@ -1,6 +1,6 @@
 # Damien Dempsey
 
-###Code Institute / User-Centric Frontend Development Milestone Project
+### Code Institute / User-Centric Frontend Development Milestone Project
 
 Tasked to create a static website combining knowledge from the first three modules in the Full Stack Web Development course with the Code Institute.
 
