@@ -26,6 +26,8 @@ The goal of this website is to:
 
 In the design of this website i used [Bootstrap 4](https://getbootstrap.com/) for my gallery layout, album cards and my more videos column section. I then used some of my own custom HTML & CSS for the rest of the site.
 
+The typography ('Roboto', sans-serif;) i chose is from Google Fonts. A desktop first approach to developing the website was used as i did not want to rely heavily on bootstrap on the mobile first approach. I felt i would benefit more from the old school approach and in the end i would better understand my code when it came to media queries for mobile devices.
+
 In the Navbar i used the DAMIEN DEMPSEY logo which forms the basis as the back to "HOME" page which is commonly found amongst industry standards.
 
 I used the shamrock emoji ☘️ on the [homepage](https://jmurray1989.github.io/Milestone-1/index.html) to help emphasize that Damien is an Irish Singer | Songwriter.
@@ -35,6 +37,10 @@ After trying out a few different color schemes I decided on roughly the same col
 I used the standard grey setting within css for my buttons, album cards, header spaces & footer. I then used the color of #fafafa Color Hex Gray98 for the font to really make it stand out from the dark background. For my hero images on each section of the website i decided to use black & white images to keep within the same color scheme as the overall project.
 
 #### Wireframes
+
+To build my wireframes i used [Balsamiq](https://balsamiq.com/) which is the software that the course briefly touches on. I found it quite easy to navigate and use so i did not look into other softwares.
+
+All wireframes created for this project can be found [Here](https://github.com/Jmurray1989/Milestone-1/tree/master/wireframes)
 
 ## Features
 
