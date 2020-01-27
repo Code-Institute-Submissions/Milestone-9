@@ -4,16 +4,34 @@
 
 Tasked to create a static website combining knowledge from the first three modules in the Full Stack Web Development course with the Code Institute.
 
-I am a huge fan of Damien Dempsey and I wanted to base my project on him. After using Damiens own official website https://damiendempsey.com/ i found it did not have enough information about him or his music. He wouldn't be a very well known artist and so i felt his website should have more of this information, so I seen this as an oppurtunity to build a website to give people that knowledge of the great singer/songwriter that he is.
+I am a huge fan of Damien Dempsey and I wanted to base my project on him. After using Damiens own official website https://damiendempsey.com i found it did not have enough information about him or his music. He wouldn't be a well known artist and so i felt his website should have more of this information, so I seen this as an oppurtunity to build a website to give people that knowledge of the great singer/songwriter that he is.
  
 ## UX
+
+The goal of this website is to:
+
+* Provide people with more of an understanding of the artist Damien is.
+* Build his brand awareness here in Ireland but also abroad.
+
+#### User Stories
+
+1. As a fan or potential fan/user, I want to check where Damiens next tour or gigs will be held.
+2. As a fan or potential fan/user I want to see if Damien has social a media presence so I can follow him across social media platforms.
+3. As a fan or potential fan/user I want to be able to check Damiens website on my mobile device as I do not own a laptop or desktop.
+4. As a fan or potential fan/user i want to be able to listen to his music or watch videos on the site.
+5. As a fan or potential fan/user I want to see a contact form so I can contact the artist or his to team to answer any questions that I cannot find the answer too on the website.
+
+#### Design & Color Scheme
+
+In the design of this website i used [Bootstrap 4](https://getbootstrap.com/) and some of my own custom HTML & CSS.
+
+I used the shamrock emoji ☘️ on the homepage to emphasize Damien is an Irish Singer | Songwriter rather than just using the words on their own.
  
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+After trying out a few different color schemes I decided on roughly the same color scheme from Damiens own official website. I feel it really makes things pop when you have a dark background with different color overlays compared to the standard white background.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+I used the standard grey setting within css for my buttons, footer and header spaces. I then used the off-white color of #fafafa for the font to really make it stand out from the dark background.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+#### Wireframes
 
 ## Features
 
@@ -25,7 +43,7 @@ In this section, you should go over the different parts of your project, and des
 
 For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+Further development of this website will include a merchandise store for all of Damiens merchandise and a fan forum that fans of Damien can interact about the singer/songwriter.
 
 ### Features Left to Implement
 - Another feature idea
