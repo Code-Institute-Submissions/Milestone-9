@@ -25,11 +25,13 @@ The goal of this website is to:
 
 In the design of this website i used [Bootstrap 4](https://getbootstrap.com/) and some of my own custom HTML & CSS.
 
-I used the shamrock emoji ☘️ on the homepage to emphasize Damien is an Irish Singer | Songwriter rather than just using the words on their own.
- 
-After trying out a few different color schemes I decided on roughly the same color scheme from Damiens own official website. I feel it really makes things pop when you have a dark background with different color overlays compared to the standard white background.
+In the Navbar i used the DAMIEN DEMPSEY logo which forms the basis as the back to "HOME" page which is commonly found amongst industry standards.
 
-I used the standard grey setting within css for my buttons, footer and header spaces. I then used the off-white color of #fafafa for the font to really make it stand out from the dark background.
+I used the shamrock emoji ☘️ on the [homepage](https://jmurray1989.github.io/Milestone-1/index.html) to help emphasize that Damien is an Irish Singer | Songwriter.
+ 
+After trying out a few different color schemes I decided on roughly the same color scheme from Damiens own official website. I feel it really makes the website pop when you have a dark background with different color overlays compared to the standard white background.
+
+I used the standard grey setting within css for my buttons, footer and header spaces. I then used the off-white color of #fafafa for the font to really make it stand out from the dark background. For my hero images on each section of the website i decided to use black & white images to keep within the same color scheme as the overall project.
 
 #### Wireframes
 
@@ -43,10 +45,15 @@ In this section, you should go over the different parts of your project, and des
 
 For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 
+
+### Future Plans
+
 Further development of this website will include a merchandise store for all of Damiens merchandise and a fan forum that fans of Damien can interact about the singer/songwriter.
 
-### Features Left to Implement
-- Another feature idea
+I also want to set-up the submit section on the form so that it will be fully operational to use.
+
+Build a customer pre-loader, as videos and photos sometimes load slowly depending on network speeds.
+
 
 ## Technologies Used
 
