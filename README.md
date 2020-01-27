@@ -30,7 +30,7 @@ The typography ('Roboto', sans-serif;) i chose is from Google Fonts. A desktop f
 
 In the Navbar i used the DAMIEN DEMPSEY logo which forms the basis as the back to "HOME" page which is commonly found amongst industry standards.
 
-I used the shamrock emoji ☘️ on the [homepage](https://jmurray1989.github.io/Milestone-1/index.html) to help emphasize that Damien is an Irish Singer | Songwriter.
+I used the shamrock emoji ☘️ on the [Homepage](https://jmurray1989.github.io/Milestone-1/index.html) to help emphasize that Damien is an Irish Singer | Songwriter.
  
 After trying out a few different color schemes I decided on roughly the same color scheme from Damiens own official website. I feel it really makes the website pop when you have a dark background with different color overlays compared to the standard white background.
 
@@ -42,11 +42,17 @@ To build my wireframes i used [Balsamiq](https://balsamiq.com/) which is the sof
 
 All wireframes created for this project can be found [Here](https://github.com/Jmurray1989/Milestone-1/tree/master/wireframes)
 
+Example below:-
+
+![Desktop-Home](https://github.com/Jmurray1989/Milestone-1/blob/master/wireframes/desktop/Home.png?raw=true)
+
 ## Features
 
-All pages on the website follow the same principle with a fixed navbar, main hero image, a <h2>header and a footer with social media links.
+All pages on the website follow the same principle with a fixed navbar, main hero image, a <h2>header and a footer with links to all of Damiens social media platforms.
 
-Intuitive navigation fixed to the top of the the page that resizes for mobile devices with the hamburger icon. When pressed it expands to show the other navigable pages. On desktop i have used a hover function that will show the user which navpage they are highlighting.
+Intuitive navigation fixed to the top of the the page that resizes for mobile devices with the hamburger icon. When pressed it expands to show the other navigable pages. On desktop i have used a hover function that will show the user which navpage they are highlighting and a class of active that will indentify to the user the current page they are on.
+
+
  
 
 
