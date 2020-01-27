@@ -1,8 +1,10 @@
 # Damien Dempsey
 
-One or two paragraphs providing an overview of your project.
+###Code Institute / User-Centric Frontend Development Milestone Project
 
-Essentially, this part is your sales pitch.
+Tasked to create a static website combining knowledge from the first three modules in the Full Stack Web Development course with the Code Institute.
+
+I am a huge fan of Damien Dempsey and I wanted to base my project on him. After using Damiens own official website https://damiendempsey.com/ i found it did not have enough information about him or his music. He wouldn't be a very well known artist and so i felt his website should have more of this information, so I seen this as an oppurtunity to build a website to give people that knowledge of the great singer/songwriter that he is.
  
 ## UX
  
