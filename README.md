@@ -52,9 +52,20 @@ Example below:-
 
 * This is a summary of the features i have put in place on my project but also the features i hope to add in the future.
 
+* All pages on the website follow the same principle with a fixed navbar, main image, a header and a footer with links to all of Damiens social media platforms.
+
+
 ### Navbar
 
-* All pages on the website follow the same principle with a fixed navbar, main image, a <h2>header and a footer with links to all of Damiens social media platforms.
+The navbar is featured on all pages and is used to navigate the site.
+
+* The navbar links are on the right side of the navbar. I have 6 links in total:-
+- Home
+- Tour
+- Music
+- Video
+- Gallery
+- Contact
 
 * Intuitive navigation fixed to the top of the the page that resizes for mobile devices with the hamburger icon. When pressed it expands to show the other navigable pages. On desktop i have used a hover function that will show the user which navpage they are highlighting and a class of active that will indentify to the user the current page they are on.
 
@@ -163,8 +174,7 @@ Chrome Devtools was used throughout the duartion of my project for testing respo
 
 * Opera has an alignment issue with my play buttons in the albums cards in the Discography section of the site.
 
-https://app.slack.com/client/T0L30B202/C0L316Z96I used a site known as [LambdaTest](https://www.lambdatest.com/) to run my code in mac and safari software and the site appears to be broken. This is not official software so i cannot be sure the results are accurate. When tested my project through chrome and others on this site it also showed me errors which i do not have.
-
+I used a site known as [LambdaTest](https://www.lambdatest.com/) to run my code in mac and safari software and the site appears to be broken. This is not official software so i cannot be sure the results are accurate. When tested my project through chrome and others on this site it also showed me errors which i do not have.
 
 ### User Story Testing
 
@@ -207,16 +217,29 @@ For this project, local deployment was not required.
 
 ### Content
 
+* The quote i used on the homepage for my hero image i copied from [here](https://www.facebook.com/303866096908335/posts/top-5-quotes-of-damien-dempsey-i-was-in-my-teens-and-i-was-going-through-a-bit-o/316906802270931/)
+
 * The text for the about section on the homepage was copied from the [Wikipedia Early Life](https://en.wikipedia.org/wiki/Damien_Dempsey)
 
 * The text for the discography section is a mix of my own and copied from [Wikipedia Damien Dempsey Discography](https://en.wikipedia.org/wiki/Damien_Dempsey_discography)
 
 ### Media
 
-* The Homepage photo used in this site was obtained from Damien Dempseys official website and permission was given from his management team. Although it is for educational purposes i thought it would be a helpful learning curve to go a step further and get permission for the image i have used.
+* The Homepage photo used in this site was obtained from Damien Dempseys official website and permission was given from his management team. Although it is for educational purposes i thought it would be a helpful learning process to go a step further and get permission for the image i have used. [See Here](https://damiendempsey.com/)
+
+* The Tour section image is from a photographer known as Sean Smyth who also gave me permission to use his images for my project.
+
+* The Music & Video Section images are from [The Last Mixed Tape](https://thelastmixedtape.com/2019/10/21/damien-dempsey-will-return-to-iveagh-gardens-next-summer/) I did make contact with the site to ask for permission but as of now i have not received a reply.
+
+* All my other images are from various online outlets who i also contacted for permission to use the images but have not received a reply to date. As it is for educational purpose and not for profit i was made aware that it may not be neccessary to ask for permission.
 
 * The Videos i used on the website where attained from Damiens Offical [Youtube](https://www.youtube.com/channel/UCa055fVTZiTHEI0tOZWfetg)
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+A special thanks to my mentor, Ali Ashik for his support, time, suggestions, and constructive feedback throughout my project.
+
+Also another Special thank you to David Rowell of Autonomy Music Group & Sean Smyth of (https://seansmyth.ie/) for also allowing me to use his images. I also want to thank them both for coming back to me in a swift and timely manner.
+
+Finally a thank you to all the Code Institute community of Slack for there ongoing advice & help.
+
