@@ -36,7 +36,7 @@ After trying out a few different color schemes I decided on roughly the same col
 
 I used the standard grey setting within css for my buttons, album cards, header spaces & footer. I then used the color of #fafafa Color Hex Gray98 for the font to really make it stand out from the dark background. For my main images on each section of the website i decided to use black & white images to keep within the same color scheme as the overall project.
 
-To help me choose my colour scheme is used [Adobe Color Wheel] (https://color.adobe.com/create).
+To help me choose my colour scheme is used [Adobe Color Wheel](https://color.adobe.com/create).
 
 #### Wireframes
 
@@ -134,30 +134,67 @@ The Technologies I used to build this project are as follows,
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+Webiste has been tested across multiple browsers and mobile devices to ensure compatibility and responsiveness of the site.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+#### Desktop
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+- Chrome
+- Mozilla Firefox
+- Microsoft Edge
+- IE
+- Opera
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+#### Mobile Devices
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+- iPhone 8
+- Galaxy S8 & S10
+- iPad
+- iPad Pro
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+[W3C Mark-up Validation](https://validator.w3.org/) and [W3C CSS Validation](https://jigsaw.w3.org/css-validator/) where used to check the validity of the project code. 
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+Chrome Devtools was used throughout the duartion of my project for testing responsiveness of the website and for any bug fixes.
+
+#### Known Issues
+
+* IE Doesn't support CSS Grid and because of this my more videos section does not display correctly
+
+* IE also has a bug for the shamrock emojis that they are white instead of the color green.
+
+* Opera has an alignment issue with my play buttons in the albums cards in the Discography section of the site.
+
+https://app.slack.com/client/T0L30B202/C0L316Z96I used a site known as [LambdaTest](https://www.lambdatest.com/) to run my code in mac and safari software and the site appears to be broken. This is not official software so i cannot be sure the results are accurate. When tested my project through chrome and others on this site it also showed me errors which i do not have.
+
+
+### User Story Testing
+
+1. As a fan or potential fan/user, I want to check where Damiens next tour or gigs will be held.
+
+- I could easily do this by going to the Tour section on the website which shows all upcoming gigs.
+
+2. As a fan or potential fan/user I want to see if Damien has social a media presence so I can follow him across social media platforms.
+
+- At the bottom of every page there are icons and when clicked it will bring me to the desired social media platform so i can follow Damien.
+
+3. As a fan or potential fan/user I want to be able to check Damiens website on my mobile device as I do not own a laptop or desktop.
+
+- The website is compatible and responsive on mobile devices.
+
+4. As a fan or potential fan/user i want to be able to listen to his music or watch videos on the site.
+
+- I can do this by visiting the Music or Video sections of the website, or by clicking on the Spotify, Youtube or Itunes icon at the bottom of the page.
+
+5. As a fan or potential fan/user I want to see a contact form so I can contact the artist or his to team to answer any questions that I cannot find the answer too on the website.
+
+- A contact form is available in the contact section and can be used to submit and questions you may have that are not already answered on the site.
+
 
 ## Deployment
 
 My project was developed using GitHub IDE, committed to git and pushed to GitHub. The following steps where taken to deploy my project.
 
 1. Logged into GitHub.
-2. Selected repository from GitHub dashboard.
+2. Selected repository from the GitHub dashboard.
 3. Selected Settings at the top of the chosen repository.
 4. Scrolled down to GitHub Pages section.
 5. Under Source I clicked the drop-down menu and selected master branch. 
