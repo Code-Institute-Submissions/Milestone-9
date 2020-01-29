@@ -240,9 +240,9 @@ For this project, local deployment was not required.
 
 For assistance i have used the following sites:-
 
-[Stack Overflow](https://stackoverflow.com/)
-[CSS Tricks](https://css-tricks.com/)
-[W3Schools](https://www.w3schools.com/)
+* [Stack Overflow](https://stackoverflow.com/)
+* [CSS Tricks](https://css-tricks.com/)
+* [W3Schools](https://www.w3schools.com/)
 
 
 ### Acknowledgements
