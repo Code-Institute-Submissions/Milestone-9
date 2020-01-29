@@ -26,7 +26,7 @@ The goal of this website is to:
 
 In the design of this website i used [Bootstrap 4](https://getbootstrap.com/) for my gallery layout & album cards. I then used some of my own custom HTML & CSS for the rest of the site.
 
-The typography ('Roboto', sans-serif;) i chose is from Google Fonts. A desktop first approach to developing the website was used as i did not want to rely heavily on bootstrap on the mobile first approach. I know in this modern era everything is mobile first but I felt i would benefit more from the old school approach and in the end i would better understand my code when it came to media queries for mobile devices.
+The typography ('Roboto', sans-serif;) i chose is from [Google Fonts]{https://fonts.google.com/}.
 
 In the Navbar i used the DAMIEN DEMPSEY logo which forms the basis as the back to "HOME" page which is commonly found amongst industry standards.
 
@@ -34,7 +34,9 @@ I used the shamrock emoji ☘️ on the [Homepage](https://jmurray1989.github.io
  
 After trying out a few different color schemes I decided on roughly the same color scheme from Damiens own official website. I feel it really makes the website pop when you have a dark background with different color overlays compared to the standard white background.
 
-I used the standard grey setting within css for my buttons, album cards, header spaces & footer. I then used the color of #fafafa Color Hex Gray98 for the font to really make it stand out from the dark background. For my hero images on each section of the website i decided to use black & white images to keep within the same color scheme as the overall project.
+I used the standard grey setting within css for my buttons, album cards, header spaces & footer. I then used the color of #fafafa Color Hex Gray98 for the font to really make it stand out from the dark background. For my main images on each section of the website i decided to use black & white images to keep within the same color scheme as the overall project.
+
+To help me choose my colour scheme is used [Adobe Color Wheel] {https://color.adobe.com/create}.
 
 #### Wireframes
 
@@ -48,26 +50,61 @@ Example below:-
 
 ## Features
 
-All pages on the website follow the same principle with a fixed navbar, main hero image, a <h2>header and a footer with links to all of Damiens social media platforms.
+This is a summary of the features i have put in place but also the features i will add in the future.
+
+###Navbar
+
+All pages on the website follow the same principle with a fixed navbar, main image, a <h2>header and a footer with links to all of Damiens social media platforms.
 
 Intuitive navigation fixed to the top of the the page that resizes for mobile devices with the hamburger icon. When pressed it expands to show the other navigable pages. On desktop i have used a hover function that will show the user which navpage they are highlighting and a class of active that will indentify to the user the current page they are on.
 
+###Buttons
 
- 
+I have buttons on the homepage that will navigate you to other pages within in the website. I also have a button on the Tour page which will navigate you to Damiens own official tour link where you can purchase tickets for his upcoming gigs. [See Here]{https://damo.tourlink.to/shows}
+
+###Cards
+
+In the Music section of the website I have album cards which feature images of Damiens albums and a short write up about each. I also added buttons to this section which allow you to play each album through Spotify. See example [Here]{https://jmurray1989.github.io/Milestone-1/music.html}
+
+###Video
+
+The Video section of the website has many videos of Damien performing well known songs live and also includes some interviews.
+
+###Gallery
+
+The Gallery section has a range of images of Damien from live performances to appearing on television with special guests.
+
+###Contact Us Form
+
+The contact page features a form so visitors can contact Damiens management looking for more information that may not be available to them on the site.
+
+###Footer
+
+The footer is featured on all pages and contains clickable icons that will take you to each of Damiens social media platforms.
+
+1. [Facebook]{https://www.facebook.com/damiendempseyofficial/}
+2. [Twitter]{https://twitter.com/damodempsey}
+3. [Instagram]{https://www.instagram.com/damiendempseymusic/}
+4. [Youtube]{https://www.youtube.com/channel/UCa055fVTZiTHEI0tOZWfetg}
+5. [Spotify]{https://open.spotify.com/artist/0bmF1w9eyJrY4CHyjpTQOW}
+6. [Itunes]{https://music.apple.com/us/artist/damien-dempsey/67966386}
 
 
 ### Future Plans
 
-Further development of this website will include a merchandise store for all of Damiens merchandise and a fan forum that fans of Damien can interact about the singer/songwriter.
+Further development of this website will include a merchandise store for all of Damiens merchandise and a fan forum that fans of Damien can interact with each other and share stories about the singer/songwriter.
 
 I also want to set-up the submit section on the form so that it will be fully operational to use.
 
 Build a customer pre-loader, as videos and photos sometimes load slowly depending on network speeds.
 
+I would also like to include a Blog that Damien himself could write to his fans informing them of whats going on in his world. Something which he is fond of doing on other social media platforms such as Facebook.
+
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+The Technologies I used to build this project are as follows,
+
 
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
