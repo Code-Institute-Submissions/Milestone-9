@@ -24,9 +24,9 @@ The goal of this website is to:
 
 #### Design & Color Scheme
 
-In the design of this website i used [Bootstrap 4](https://getbootstrap.com/) for my gallery layout, album cards and my more videos column section. I then used some of my own custom HTML & CSS for the rest of the site.
+In the design of this website i used [Bootstrap 4](https://getbootstrap.com/) for my gallery layout & album cards. I then used some of my own custom HTML & CSS for the rest of the site.
 
-The typography ('Roboto', sans-serif;) i chose is from Google Fonts. A desktop first approach to developing the website was used as i did not want to rely heavily on bootstrap on the mobile first approach. I felt i would benefit more from the old school approach and in the end i would better understand my code when it came to media queries for mobile devices.
+The typography ('Roboto', sans-serif;) i chose is from Google Fonts. A desktop first approach to developing the website was used as i did not want to rely heavily on bootstrap on the mobile first approach. I know in this modern era everything is mobile first but I felt i would benefit more from the old school approach and in the end i would better understand my code when it came to media queries for mobile devices.
 
 In the Navbar i used the DAMIEN DEMPSEY logo which forms the basis as the back to "HOME" page which is commonly found amongst industry standards.
 
