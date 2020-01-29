@@ -146,7 +146,7 @@ The Technologies I used to build this project are as follows,
 
 ## Testing
 
-Webiste has been tested across multiple browsers and mobile devices to ensure compatibility and responsiveness of the site.
+Website has been tested across multiple browsers and on mobile devices to ensure compatibility and responsiveness of the site.
 
 #### Desktop
 
