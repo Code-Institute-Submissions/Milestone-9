@@ -236,6 +236,15 @@ For this project, local deployment was not required.
 
 * The Videos i used on the website where attained from Damiens Offical [Youtube](https://www.youtube.com/channel/UCa055fVTZiTHEI0tOZWfetg)
 
+### Code
+
+For assistance i have used the following sites:-
+
+[Stack Overflow](https://stackoverflow.com/)
+[CSS Tricks](https://css-tricks.com/)
+[W3Schools](https://www.w3schools.com/)
+
+
 ### Acknowledgements
 
 A special thanks to my mentor, Ali Ashik for his support, time, suggestions, and constructive feedback throughout my project.
