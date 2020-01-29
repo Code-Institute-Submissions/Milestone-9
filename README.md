@@ -59,7 +59,7 @@ Example below:-
 
 The navbar is featured on all pages and is used to navigate the site.
 
-* The navbar links are on the right side of the navbar. I have 6 links in total:-
+ The navbar links are on the right side of the navbar. I have 6 links in total:-
 - Home
 - Tour
 - Music
@@ -67,7 +67,7 @@ The navbar is featured on all pages and is used to navigate the site.
 - Gallery
 - Contact
 
-* Intuitive navigation fixed to the top of the the page that resizes for mobile devices with the hamburger icon. When pressed it expands to show the other navigable pages. On desktop i have used a hover function that will show the user which navpage they are highlighting and a class of active that will indentify to the user the current page they are on.
+Intuitive navigation fixed to the top of the the page that resizes for mobile devices with the hamburger icon. When pressed it expands to show the other navigable pages. On desktop i have used a hover function that will show the user which navpage they are highlighting and a class of active that will indentify to the user the current page they are on.
 
 ### Buttons
 
@@ -134,6 +134,7 @@ The Technologies I used to build this project are as follows,
 
 [GOOGLE FONTS](https://fonts.google.com/)
 
+* Used for the typography of the project.
 
 [GITHUB](https://github.com/)
 
@@ -164,7 +165,7 @@ Webiste has been tested across multiple browsers and mobile devices to ensure co
 
 [W3C Mark-up Validation](https://validator.w3.org/) and [W3C CSS Validation](https://jigsaw.w3.org/css-validator/) where used to check the validity of the project code. 
 
-Chrome Devtools was used throughout the duartion of my project for testing responsiveness of the website and for any bug fixes.
+Chrome Devtools was used throughout the duartion of my project for testing responsiveness of the website and for finding and fixing bugs.
 
 #### Known Issues
 
@@ -239,7 +240,7 @@ For this project, local deployment was not required.
 
 A special thanks to my mentor, Ali Ashik for his support, time, suggestions, and constructive feedback throughout my project.
 
-Also another Special thank you to David Rowell of Autonomy Music Group & Sean Smyth of (https://seansmyth.ie/) for also allowing me to use his images. I also want to thank them both for coming back to me in a swift and timely manner.
+Also another Special thank you to David Rowell of [Autonomy Music Group](https://autonomymusicgroup.com/) & Sean Smyth of [Sean Smyth.ie](https://seansmyth.ie/) for also allowing me to use his images. I also want to thank them both for coming back to me in a swift and timely manner.
 
 Finally a thank you to all the Code Institute community of Slack for there ongoing advice & help.
 
